@@ -5,20 +5,6 @@ A machine learning project that predicts whether an individual's annual income e
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Project Workflow](#project-workflow)
-- [Models Used](#models-used)
-- [Results](#results)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Author](#author)
-
----
-
 ## 🔍 Overview
 
 Income inequality analysis is a well‑known problem in socio‑economic research. This project builds and compares **five classical supervised‑learning classifiers** to predict whether a person earns more than $50K per year using census data. The end-to-end pipeline covers data acquisition, cleaning, feature engineering, model training, and performance evaluation.
@@ -141,7 +127,7 @@ cd "Adult Census Income Classification"
 pip install numpy pandas scikit-learn kagglehub jupyter
 
 # 3. Launch the notebook
-jupyter notebook "Assignment Akshat Garg.ipynb"
+jupyter notebook "implementation.ipynb"
 ```
 
 > **Note:** The notebook automatically downloads the dataset using `kagglehub`. Ensure your Kaggle API credentials are configured (`~/.kaggle/kaggle.json`).
@@ -152,25 +138,8 @@ jupyter notebook "Assignment Akshat Garg.ipynb"
 
 ```
 Adult Census Income Classification/
-├── Assignment Akshat Garg.ipynb   # Main notebook with full pipeline
+├── implementation.ipynb   # Main notebook with full pipeline
 ├── README.md                      # Project documentation (this file)
 └── anaconda_projects/             # Anaconda project files
 ```
 
----
-
-## 👤 Author
-
-| Field | Detail |
-|---|---|
-| **Name** | Akshat Garg |
-| **Registration No.** | 23BCE10641 |
-| **Application No.** | IN26011052 |
-| **Batch** | 1A |
-| **Email** | akshat.23bce10641@vitbhopal.ac.in |
-
----
-
-<p align="center">
-  <i>Built with ❤️ using Python & Scikit-learn</i>
-</p>
