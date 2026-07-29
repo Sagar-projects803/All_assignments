@@ -2,7 +2,7 @@
 
 
 
-This project implements the Proximal Policy Optimization (PPO) algorithm to solve the Gymnasium CartPole-v1 environment using Stable-Baselines3.
+This project implements the Proximal Policy Optimization (PPO) algorithm to solve the Gymnasium CartPole-v1 environment using Stable-Baselines3. 
 
 ---
 
