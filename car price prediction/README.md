@@ -8,20 +8,6 @@ A machine learning project that predicts the **selling price of used cars** usin
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Project Workflow](#project-workflow)
-- [Model Details](#model-details)
-- [Web Application](#web-application)
-- [Results](#results)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-
----
-
 ## 🔍 Overview
 
 Buying or selling a used car often involves guesswork around fair pricing. This project builds a **supervised regression model** that estimates a car's selling price based on features like present price, kilometers driven, fuel type, transmission, and age. The trained model is serialized using Pickle and served through a clean **Flask web interface** where users can input car details and get an instant price prediction in ₹ Lakhs.
@@ -189,7 +175,7 @@ cd "car price prediction"
 pip install pandas numpy scikit-learn flask seaborn matplotlib opendatasets
 
 # 3. Option A: Run the notebook (trains model + saves pickle + creates app)
-jupyter notebook "CAR_PRICE_PREDICTOR_AKSHAT_GARG_23BCE10641.ipynb"
+jupyter notebook "implementation.ipynb"
 
 # 3. Option B: Run the Flask app directly (if model pickle already exists)
 python app.py
@@ -205,7 +191,7 @@ Then open **http://127.0.0.1:5000** in your browser to use the predictor.
 
 ```
 car price prediction/
-├── CAR_PRICE_PREDICTOR_AKSHAT_GARG_23BCE10641.ipynb   # Main notebook (EDA + training + app creation)
+├── implementation.ipynb   # Main notebook (EDA + training + app creation)
 ├── app.py                                              # Flask web application
 ├── car_price_model.pkl                                 # Serialized Random Forest model
 ├── templates/
@@ -217,9 +203,3 @@ car price prediction/
 │   └── car details v4.csv
 └── README.md                                           # Project documentation
 ```
-
----
-
-<p align="center">
-  <i>Built with ❤️ using Python, Scikit-learn & Flask</i>
-</p>
