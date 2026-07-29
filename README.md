@@ -1,11 +1,4 @@
-# 📂 AI & Machine Learning Projects Portfolio
-
-
----
-
-A collection of **9 projects** spanning Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, and Reinforcement Learning — built with Python, TensorFlow, Scikit-learn, Flask, and more.
-
----
+#  AI & ML Projects
 
 ## 📑 Projects at a Glance
 
@@ -142,6 +135,3 @@ Trains an autonomous spacecraft agent to safely land on a designated pad using *
 
 ---
 
-<p align="center">
-  <i>Built with ❤️ by Akshat Garg</i>
-</p>
