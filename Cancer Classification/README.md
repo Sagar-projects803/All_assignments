@@ -195,6 +195,3 @@ Cancer Classification/
 
 ---
 
-<p align="center">
-  <i>Built with ❤️ using Python & TensorFlow</i>
-</p>
