@@ -151,7 +151,3 @@ trigger a rebuild rather than erroring out permanently.
 - **Multiple documents:** the current ingest pipeline handles one source at a
   time; to index several filings, extend `ingest.py` to loop over a list of
   URLs/paths and tag each chunk with its source name before embedding.
-
-## Disclaimer
-
-This tool summarizes and answers questions about a public SEC filing. It is for informational purposes only and is not investment advice.
