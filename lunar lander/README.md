@@ -5,7 +5,7 @@ A Deep Reinforcement Learning project focused on training an autonomous spacecra
 
 
 ---
-
+ 
 ## Project Objective
 The goal of this implementation is to leverage the Actor-Critic framework via PPO to master the continuous flight control dynamics of the LunarLander environment[cite: 1]. Instead of utilizing hand-crafted rule-based physics equations, the agent organically derives an optimal thrust policy through active exploration and cumulative reward maximization[cite: 1].
 
