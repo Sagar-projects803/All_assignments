@@ -167,7 +167,7 @@ cd "Cancer Classification"
 pip install tensorflow matplotlib numpy scipy scikit-learn seaborn opendatasets
 
 # 3. Launch the notebook
-jupyter notebook "Cancer Classification AKSHAT GARG 23BCE10641.ipynb"
+jupyter notebook "implementation.ipynb"
 ```
 
 > **Note:** The notebook downloads the dataset automatically using `opendatasets`. You will be prompted for your Kaggle username and API key on first run.
@@ -178,7 +178,7 @@ jupyter notebook "Cancer Classification AKSHAT GARG 23BCE10641.ipynb"
 
 ```
 Cancer Classification/
-├── Cancer Classification AKSHAT GARG 23BCE10641.ipynb   # Main notebook
+├── implementation.ipynb   # Main notebook
 ├── README.md                                             # Project documentation
 └── brain-tumor-mri-dataset/                              # MRI image dataset
     ├── Training/                                         # ~5,600 training images
