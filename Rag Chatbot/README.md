@@ -1,4 +1,4 @@
-# Amazon Quarterly Report RAG Chatbot
+# RAG Chatbot
   
 
 A retrieval-augmented generation (RAG) chatbot that answers questions about
