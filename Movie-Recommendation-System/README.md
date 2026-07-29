@@ -60,7 +60,7 @@ Movie-Recommendation-System/
 Clone the repository:
 
 ```bash
-git clone https://github.com/AkshatGarg2005/Movie-Recommendation-System
+git clone https://github.com/Sagar-projects803/All_assignments/edit/main/Movie-Recommendation-System.git
 ```
 
 Navigate to the project folder:
@@ -170,6 +170,3 @@ gunicorn app:app
 
 ---
 
-## 📄 License
-
-This project is developed for educational and learning purposes.
